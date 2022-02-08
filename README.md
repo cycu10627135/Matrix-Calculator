@@ -1,8 +1,18 @@
 # Matrix Calculator
 ## Description
 ![圖片參考名稱](https://github.com/cycu10627135/Matrix-Calculator/blob/master/Matrix_Calculator.PNG "description")
-用YACC為一個**matrix expression compiler**編譯器編寫syntax和sematic checker。  
-所有輸入的矩陣都是二維矩陣，表示為 [ *column number *, *row number*]。
+用YACC為一個**matrix expression compiler**編寫syntax和sematic checker。  
+所有輸入的矩陣都是二維矩陣，表示為 [column number , row number]。  
+例如:  
+[2,3]為一個2x3的矩陣、[5,1]為一個2x3的矩陣。
+
+此compiler可執行的幾個operator:  
+加法\‘+\’，減法\‘-\’，乘法\‘*\’，轉置\‘\^T\’，括號\‘()\’。  
+
+
+| Sample Input  | Sample Output |
+|-------|:-----:|
+|-------|:-----:|
   
 ### 參考答案
 | Sample Input  | Sample Output |
