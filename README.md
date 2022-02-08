@@ -12,7 +12,10 @@
   
 因此，本題應該達成的目的有兩個部分。  
 第一，檢查輸入的表達式符不符合語法，如果不符合則輸出“Syntax Error”。  
-第二，如果表達式符合語法，則進行sematic check，看看每個operator兩側的矩陣維度是否正確。如果不正確則輸出“Sematic error on col ◎”，◎為出錯的operator在表達式中的位置。  
+第二，如果表達式符合語法，則進行sematic check，看看每個operator兩側的矩陣維度是否正確。  
+例如:  
+[2,3]\*[3,2]
+如果不正確則輸出“Sematic error on col ◎”，◎為出錯的operator在表達式中的位置。  
 如果表達是完全正確，則輸出“Accepted”。  
   
 ### 參考答案
