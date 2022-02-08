@@ -2,14 +2,18 @@
 ## Description
 ![圖片參考名稱](https://github.com/cycu10627135/Matrix-Calculator/blob/master/Matrix_Calculator.PNG "description")
 用YACC為一個**matrix expression compiler**編寫syntax和sematic checker。  
+  
 所有輸入的矩陣都是二維矩陣，表示為 [column number , row number]。  
 例如:  
 [2,3]為一個2x3的矩陣、[5,1]為一個2x3的矩陣。  
   
 這個compiler支持且可辨識、執行的幾個operator:  
 加法‘+’，減法‘-’，乘法‘*’，轉置‘^T’，括號‘()’。  
-因此，本題該處理的
-
+  
+因此，本題應該達成的目的有兩個部分。  
+第一，檢查輸入的表達式符不符合語法，如果不符合則輸出“Syntax Error”。  
+第二，如果表達式符合語法，則進行sematic check，看看每個operator兩側的矩陣維度是否正確。如果不正確則輸出“Sematic error on col ◎”，◎為出錯的operator在表達式中的位置。  
+如果表達是完全正確，則輸出“Accepted”。  
   
 ### 參考答案
 | Sample Input  | Sample Output |
